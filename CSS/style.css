@@ -196,6 +196,54 @@ body {
   font-weight: 100;
   line-height: 1.6;
 }
+/* Menu Section */
+.menu h2,
+.contact h2 {
+  margin-bottom: 1rem;
+}
+
+.menu p,
+.contact p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+.menu .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem; /* jarak antar kartu lebih rapat */
+  margin-top: 2rem;
+  padding: 0 1rem; /* biar ada spasi kiri-kanan di HP */
+}
+
+.menu .menu-card {
+  text-align: center;
+  width: 20%; /* default: 5 per baris, wrap otomatis */
+}
+
+.menu .menu-card img {
+  border-radius: 50%;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.menu-card-tittle {
+  margin: 0.8rem 0 0.3rem;
+  color: white;
+  font-weight: bold;
+}
+
+.menu-card-price {
+  color: white;
+  font-size: 0.9rem;
+}
+
 /* Media Queries */
 
 /* Laptop */
