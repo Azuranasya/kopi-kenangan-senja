@@ -1,4 +1,4 @@
-// Toggle Class ActiveAdd commentMore actions
+// Toggle Class ActiveAdd commentMore action
 const navbarNav = document.querySelector(".navbar-nav");
 
 // ketika Hamburger Menu Di Klik

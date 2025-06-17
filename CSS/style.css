@@ -156,7 +156,7 @@ body {
   }
 }
 
-/* Tablet */
+/* Tablet menu */
 @media (max-width: 756px) {
   html {
     font-size: 62.5%;
